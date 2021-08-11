@@ -7,8 +7,7 @@
 
 .header {
   height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
+  height: 756px;
   display: flex;
   justify-content: space-between;
   background-color: #f2f2f2;
@@ -23,7 +22,7 @@
   margin-top: 30px;
 }
 
-.logo {
+.logo_size {
   display: block;
   width: 183px;
   height: 32px; 
@@ -32,13 +31,15 @@
 
 .header__title {
   width: 730px;
-  font: 102px bold;
+  font-weight: bold;
+  font-size: 102px;
   line-height: 96px;
 }
 
 .header__subtitle {
   width: 388px;
-  font: 18px normal;
+  font-weight: normal;
+  font-size: 18px;
   line-height: 25px;
 }
 
@@ -68,4 +69,53 @@
   position: absolute;
   top: 64px;
   right: 0;
+}
+
+/* main content */
+
+/* description */
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+.two-coloumns__paragraph-2 {
+  margin: 30px 0;
+}
+
+.two-coloumns__span-accent {
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* Modificators */
+
+.section_margin {
+  margin: 100px auto;
+  width: 80%;
+}
+
+.margin_0 {
+  margin: 0;
 }
