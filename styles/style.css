@@ -22,11 +22,14 @@
   margin-top: 30px;
 }
 
+.logo__place_header {
+  background-image: url(../images/logo_place_header.svg);
+}
+
 .logo_size {
   display: block;
   width: 183px;
   height: 32px; 
-  background-image: url(../images/logo_place_header.svg);
 }
 
 .header__title {
@@ -41,10 +44,6 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
-}
-
-.header__link {
-  text-decoration: none;
 }
 
 .header__block-right {
@@ -114,6 +113,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 90px 0;
 }
 
 .section-title {
@@ -207,6 +207,88 @@
   bottom: 0;
 }
 
+/* kaufman */
+
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #1f1f1f;
+  position: relative;
+  padding: 90px 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  top: 0;
+  z-index: -1;
+}
+
+/* footer */
+
+.footer {
+  background-color: #1f1f1f;
+  padding: 60px 0 40px;
+  height: 350px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  height: 250px;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+.footer__author {
+  padding: 18px 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.footer__column-heading {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.footer__column_list {
+  margin: 20px 0 16px;
+  padding: 0;
+}
+
+.footer__column-link {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+}
+
+
 
 
 
@@ -215,7 +297,7 @@
 /* Modificators */
 
 .section_margin {
-  margin: 100px auto;
+  margin: 100px auto 0;
 }
 
 .margin_0 {
@@ -229,3 +311,16 @@
 .box-sizing_border-box {
   box-sizing: border-box;
 }
+
+.text_white {
+  color: white;
+}
+
+.text-decoration_none {
+  text-decoration: none;
+}
+
+.list-style_none {
+  list-style: none;
+}
+
