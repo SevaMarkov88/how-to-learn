@@ -26,6 +26,10 @@
 @import url(../blocks/section-title/section-title.css);
 /* section-subtitle */
 @import url(../blocks/section-subtitle/section-subtitle.css);
+/* videos */
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 /* digits */
 @import url(../blocks/digits/digits.css);
 /* table */
