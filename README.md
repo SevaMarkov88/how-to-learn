@@ -1,7 +1,21 @@
-# My first Landing page
-------
-Here you gen find some interesting **links** for people who love to __study__ at [Yandex Prakticum](https://practicum.yandex.ru  "Я Yandex!")
-__Greate with using:__
+# Проектная работа: "How to learn".
+
+## Создана в рамках учебы в [Яндекс.Практикум](https://praktikum.yandex.ru/) на курсе ["Веб-разработчик"](https://praktikum.yandex.ru/web/).
+
+
+## Описание:
+Первый проект сделанный в процессе обучения. Краткий рассказ как научиться учиться)) На странице добавлены видео со сторонних ресурсов и добавлена анимация элементов.
+
+[Посмотреть на GitHub Pages](https://sevamarkov88.github.io/how-to-learn/)
+
+## Технологии:
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
+![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
+
+
 1. Flex.
 ```css
 .kaufman {
@@ -20,21 +34,14 @@ __Greate with using:__
   ```
 4. HTML.
 ```html
-<section class="khan">
-        <div class="khan__container">
-          <h2 class="khan__author">Салман Хан</h2>
-          <h3 class="khan__title">Весь мир — школа</h3>
-          <blockquote class="khan__quote">
-            Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
-            Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся
-            повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
-          </blockquote>
-          <p class="khan__quote-author">Джордж Лукас</p>
-          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
-          <div class="khan__book-container">
-            <img src="./images/khan-book.jpg" alt="Весь мир - школа" class="khan__book-pic">
-            <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
-          </div>
+     <section class="video">
+        <h2 class="section-title">Видео нa TED</h2>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+        <div class="video__iframes">
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen>
+          </iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen>
+          </iframe>
         </div>
       </section>
   ```
